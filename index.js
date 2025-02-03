@@ -12,6 +12,7 @@ mongoose.connect('mongodb://localhost:27017/sample')
 
 app.use("", productRouter);
 
+console.log("updated");
 // app.get('/', (req, res)=>{
 //     res.send('server reacted...')
 // })
